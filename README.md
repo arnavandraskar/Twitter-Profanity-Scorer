@@ -9,14 +9,12 @@ To use the Twitter Profanity Scorer, you'll need to have Python 3 and the pandas
 
 ```
 pip install pandas
-
 ```
 
 To run the program, download the code and save it as a Python file (e.g., profanity_scorer.py). Then, run the following command in your terminal:
 
 ```
 python profanity_scorer.py
-
 ```
 This will load the Twitter dataset, analyze each tweet, and output the results to a new CSV file.
 

@@ -18,7 +18,7 @@ python profanity_scorer.py
 ```
 This will load the Twitter dataset, analyze each tweet, and output the results to a new CSV file.
 
-### Usage
+## Usage
 The program works by creating a `profanity` class, which loads a set of racial slurs from a file and provides a method for calculating the profanity score of a given tweet. The `__init__` method of the `profanity` class loads the set of racial slurs from the `racial_slurs`.txt file.
 
 The `get_score` method of the `profanity` class takes a tweet as input and returns a profanity score ('clean', 'mild', 'moderate', or 'severe') based on the number of racial slurs in the tweet.
